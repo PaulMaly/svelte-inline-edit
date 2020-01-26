@@ -1,0 +1,42 @@
+{
+    "name": "svelte-inline-edit",
+    "version": "1.0.0",
+    "description": "Inline editing component for Svelte 3",
+    "svelte": "src/index.js",
+    "main": "index.js",
+    "module": "index.mjs",
+    "scripts": {
+        "build": "rollup -c",
+        "prepublishOnly": "npm run lint & npm run build",
+        "lint": "eslint src/*.svelte"
+    },
+    "files": [
+        "src",
+        "index.mjs",
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PaulMaly/svelte-inline-edit.git"
+    },
+    "keywords": [
+        "svelte"
+    ],
+    "author": "PaulMaly",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PaulMaly/svelte-inline-edit/issues"
+    },
+    "homepage": "https://github.com/PaulMaly/svelte-inline-edit#readme",
+    "devDependencies": {
+        "eslint": "latest",
+        "eslint-plugin-svelte3": "latest",
+        "rollup": "latest",
+        "rollup-plugin-node-resolve": "latest",
+        "rollup-plugin-svelte": "latest",
+        "svelte": "latest"
+    },
+    "dependencies": {
+        "svelte-transitions-morph": "latest"
+    }
+}
