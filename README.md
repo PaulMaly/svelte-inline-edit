@@ -7,6 +7,7 @@
 - Simple
 - Cancelable
 - Different positioning of controls
+- `edit`, `save`, `cancel` events
 
 ## Install
 

@@ -1,6 +1,6 @@
 {
     "name": "svelte-inline-edit",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Inline editing component for Svelte 3",
     "svelte": "src/index.js",
     "main": "index.js",
@@ -35,8 +35,5 @@
         "rollup-plugin-node-resolve": "latest",
         "rollup-plugin-svelte": "latest",
         "svelte": "latest"
-    },
-    "dependencies": {
-        "svelte-transitions-morph": "latest"
     }
 }
