@@ -62,7 +62,7 @@
 		attrs = other;
 	}
 
-	function edit(e) {
+	function edit() {
 		readonly && (readonly = false);
 		dispatch('edit', input);
 	}

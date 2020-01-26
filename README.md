@@ -75,7 +75,7 @@ just before closing body tag.
 | `value` | `String|Number` | Editable value | No | `empty string` |
 | `options` | `Array` | A list of permissible or recommended options of value | No | `empty array` |
 | `rows` | `Number` | Define number of rows for editable. | No | `1` |
-| `position` | `String` | Position of controls | No | `right` |
+| `position` | `String` | Position of controls: left, right, top-left, top-right, bottom-left, bottom-right | No | `right` |
 
 ## Slots
 
