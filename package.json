@@ -1,6 +1,6 @@
 {
     "name": "svelte-inline-edit",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Inline editing component for Svelte 3",
     "svelte": "src/index.js",
     "main": "index.js",

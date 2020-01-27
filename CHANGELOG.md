@@ -1,5 +1,8 @@
 # svelte-inline-edit changelog
 
+## 1.0.2
+* Fix props filtering
+
 ## 1.0.1
 * Remove unused dependency
 

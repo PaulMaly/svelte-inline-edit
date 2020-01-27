@@ -58,7 +58,7 @@
 
 	$: options.length && (list = Date.now());
 	$: {
-		const { readonly, value, ...other } = $$props;
+		const { value, rows, position, options, ...other } = $$props;
 		attrs = other;
 	}
 
