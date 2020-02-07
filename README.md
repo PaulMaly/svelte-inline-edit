@@ -73,7 +73,7 @@ just before closing body tag.
 
 | Name | Type | Description | Required | Default |
 | --- | --- | --- | --- | --- |
-| `value` | `String|Number` | Editable value | No | `empty string` |
+| `value` | `String or Number` | Editable value | No | `empty string` |
 | `options` | `Array` | A list of permissible or recommended options of value | No | `empty array` |
 | `rows` | `Number` | Define number of rows for editable. | No | `1` |
 | `position` | `String` | Position of controls: left, right, top-left, top-right, bottom-left, bottom-right | No | `right` |
@@ -82,6 +82,14 @@ just before closing body tag.
 
 - `save` - element to be placed as save control
 - `cancel` - element to be placed as cancel control
+
+## Events
+
+- `edit` - on start editing
+- `save` - on save
+- `cancel` - on cancel editing
+
+You can use direct access to input element via `event.detail`.
 
 ## License
 
